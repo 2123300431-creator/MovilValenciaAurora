@@ -43,7 +43,7 @@ export default function App() {
   if (cargando) {
     return (
       <SafeAreaView style={styles.center}>
-        <ActivityIndicator size="large" color="#2563EB" />
+        <ActivityIndicator size="large" color="#C7371A" />
         <Text style={styles.loadingText}>Cargando base de datos SQLite...</Text>
       </SafeAreaView>
     );
@@ -52,7 +52,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.phoneFrame}>
-        <Text style={styles.titulo}>Mis Tareas</Text>
+        <Text style={styles.titulo}>Valencia Aurora tareitas</Text>
         <Text style={styles.subtitulo}>SQLite v{version} · {tareas.length} tarea(s)</Text>
 
         <View style={styles.inputRow}>
